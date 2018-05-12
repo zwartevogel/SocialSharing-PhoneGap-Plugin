@@ -41,6 +41,7 @@
       </feature>
     </config-file>
 
+<!--
     <config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
       <string>This app requires photo library access to function properly.</string>
     </config-file>
@@ -48,6 +49,7 @@
     <config-file target ="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
       <string>This app requires photo library access to function properly.</string>
     </config-file>
+-->
 
     <header-file src="src/ios/NSString+SSURLEncoding.h"/>
     <source-file src="src/ios/NSString+SSURLEncoding.m"/>
@@ -78,7 +80,7 @@
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/*">
-      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+<!--      <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
